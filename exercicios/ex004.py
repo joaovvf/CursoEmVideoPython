@@ -1,0 +1,6 @@
+algo = input('{}Digite algo:{} '.format('\33[4;31;43m', '\33[m'))
+print('É alfanúmerico?', algo.isalnum())
+print('Tipo primitivo:', type(algo))
+print('É alfábetico?', algo.isalpha())
+print('Está em minúsculo?', algo.islower())
+print('É decimal?', algo.isdecimal())
